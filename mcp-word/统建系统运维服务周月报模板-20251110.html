@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统运维服务【周|月】报</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #333;
+            margin: 0;
+            font-size: 24px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .stat-card .number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .stat-card .label {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #ffc107;
+        }
+        .footer {
+            text-align: right;
+            color: #666;
+            font-size: 14px;
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>系统运维服务【周|月】报</h1>
+            <div class="subtitle">报告周期：【（2025年10月01日-2025年10月31日）】</div>
+        </div>
+
+        <div class="section">
+            <h2>一、服务概况</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number">【90】</div>
+                    <div class="label">服务总量</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">【44】</div>
+                    <div class="label">服务请求</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">【0】</div>
+                    <div class="label">事件</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">【46】</div>
+                    <div class="label">审批</div>
+                </div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number">【18】</div>
+                    <div class="label">自助服务</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">【26】</div>
+                    <div class="label">人工服务</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>二、服务趋势分析</h2>
+            <div class="highlight">
+                <p>与上一周期（【91】）相比，服务总量【下降|上升】【2.2】%</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>三、服务指标</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number">【100】%</div>
+                    <div class="label">解决率</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">【100%】</div>
+                    <div class="label">完成率</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">【100】%</div>
+                    <div class="label">及时率</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">【100】%</div>
+                    <div class="label">满意度</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>四、未解决工单</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number">【3】</div>
+                    <div class="label">本期未解决</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">【5】</div>
+                    <div class="label">历史未解决</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>五、知识库更新</h2>
+            <div class="highlight">
+                <p>本期新增知识库条目：【空】条</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>六、服务类别分布</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>服务类别</th>
+                        <th>数量</th>
+                        <th>占比</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>装备调度管理系统/问题答疑/系统功能类</td>
+                        <td>25</td>
+                        <td>27.78%</td>
+                    </tr>
+                    <tr>
+                        <td>装备调度管理系统/问题答疑/流程类</td>
+                        <td>8</td>
+                        <td>8.89%</td>
+                    </tr>
+                    <tr>
+                        <td>装备调度管理系统/问题答疑/业务类</td>
+                        <td>12</td>
+                        <td>13.33%</td>
+                    </tr>
+                    <tr>
+                        <td>装备调度管理系统/系统BUG</td>
+                        <td>15</td>
+                        <td>16.67%</td>
+                    </tr>
+                    <tr>
+                        <td>装备调度管理系统/数据修改/装备信息数据修改</td>
+                        <td>2</td>
+                        <td>2.22%</td>
+                    </tr>
+                    <tr>
+                        <td>装备调度管理系统/权限开通/账号开通</td>
+                        <td>5</td>
+                        <td>5.56%</td>
+                    </tr>
+                    <tr>
+                        <td>装备调度管理系统/权限开通/功能调整</td>
+                        <td>2</td>
+                        <td>2.22%</td>
+                    </tr>
+                    <tr>
+                        <td>装备调度管理系统/问题答疑/财务云资产卡片推送</td>
+                        <td>1</td>
+                        <td>1.11%</td>
+                    </tr>
+                    <tr>
+                        <td>装备调度管理系统/权限开通/管理员申请</td>
+                        <td>1</td>
+                        <td>1.11%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>生成时间：2025年11月24日</p>
+        </div>
+    </div>
+</body>
+</html>
